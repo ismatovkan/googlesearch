@@ -36,7 +36,7 @@ public class GoogleTest {
   public void google() {
     driver.get("https://www.google.com/");
     driver.manage().window().setSize(new Dimension(1280, 716));
-    driver.findElement(By.name("q")).sendKeys("seleniumhq");
+    driver.findElement(By.name("q")).sendKeys("Selenium - Web Browser AutomaAtion");
     driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
     driver.findElement(By.cssSelector("div:nth-child(2) > .rc .LC20lb")).click();
     driver.findElement(By.linkText("Download")).click();
